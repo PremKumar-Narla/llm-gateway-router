@@ -1,0 +1,12 @@
+[project]
+name = "llm-gateway-router"
+version = "0.1.0"
+description = "Token-aware rate limiting and model fallback routing for an LLM gateway"
+readme = "README.md"
+requires-python = ">=3.11"
+# Standard library only: asyncio, sqlite3, hashlib, json.
+dependencies = []
+
+[tool.uv]
+# Run as a plain project (no build backend needed): `uv run python -m ...`
+package = false
